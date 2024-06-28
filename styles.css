@@ -258,3 +258,20 @@ button[type="submit"]:hover {
     font-size: 1rem;
     color: #333;
 }
+#resources ul {
+    list-style: none;
+    padding: 0;
+}
+
+#resources ul li {
+    margin-bottom: 0.5rem;
+}
+
+#resources ul li a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+#resources ul li a:hover {
+    text-decoration: underline;
+}
