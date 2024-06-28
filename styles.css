@@ -1,0 +1,260 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(135deg, #0073e6 0%, #005bb5 100%);
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-left: 60px;
+}
+
+.header-content .logo {
+    margin-right: 20px;
+}
+
+.header-content .logo img {
+    height: 50px;
+    width: auto;
+}
+
+.header-content .title h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    margin-left: 60px;
+}
+
+nav ul li {
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#banner img {
+    width: 100%;
+    height: auto;
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem 5%;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #0073e6;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #005bb5;
+    color: #fff;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.info-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.info-column {
+    flex: 1;
+    margin: 1rem;
+    padding: 1rem;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.info-column img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.info-column h3 {
+    color: #0073e6;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.info-column p {
+    font-size: 1rem;
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    .info-column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+#stories .story {
+    display: flex;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#stories .story img {
+    width: 20%;
+    object-fit: cover;
+}
+
+#stories .story-content {
+    padding: 1rem;
+    background: #fff;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#stories .story-content h3 {
+    margin: 0 0 1rem 0;
+    font-size: 1.5rem;
+    color: #0073e6;
+}
+
+#stories .story-content p {
+    margin: 0.5rem 0;
+}
+#survey {
+    margin: 2rem 5%;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+}
+
+#survey h2 {
+    color: #0073e6;
+    margin-bottom: 1rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.form-group input, .form-group select, .form-group textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.form-group textarea {
+    height: 100px;
+}
+
+button[type="submit"] {
+    background: #0073e6;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background: #005bb5;
+}
+
+#survey-result {
+    margin-top: 2rem;
+    background: #f9f9f9;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.recommendation-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.recommendation-item {
+    flex: 1;
+    margin: 1rem;
+    padding: 1rem;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.recommendation-item img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.recommendation-item h3 {
+    color: #0073e6;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.recommendation-item p {
+    font-size: 1rem;
+    color: #333;
+}
