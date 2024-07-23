@@ -169,7 +169,7 @@ footer {
 #stories .story-content p {
     margin: 0.5rem 0;
 }
-#survey {
+#survey, #feedback-survey {
     margin: 2rem 5%;
     background: #fff;
     border-radius: 10px;
@@ -177,7 +177,7 @@ footer {
     padding: 2rem;
 }
 
-#survey h2 {
+#survey h2, #feedback-survey h2 {
     color: #0073e6;
     margin-bottom: 1rem;
 }
@@ -274,4 +274,13 @@ button[type="submit"]:hover {
 
 #resources ul li a:hover {
     text-decoration: underline;
+}
+
+#sources ul {
+    list-style: none;
+    padding: 0;
+}
+
+#sources ul li {
+    margin-bottom: 0.5rem;
 }
